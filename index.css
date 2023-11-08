@@ -153,6 +153,11 @@ nav{
     grid-row-gap: 30px;
     margin-top: 15px;
 }
+.list container{
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    grid-template-rows : 1fr 1fr;
+}
 .vid-list .thumbnail{
     width: 100%;
     border-radius: 5px;
